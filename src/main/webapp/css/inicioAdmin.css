@@ -26,6 +26,10 @@
   }
 }
 
+#menu{
+	margin-left: 240px;
+}
+
 #imagenes1, #imagenes3{
 	margin-top: 100px;
 }

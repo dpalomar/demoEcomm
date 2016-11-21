@@ -110,6 +110,16 @@
 		<p>Encuentra tu producto ideal</p>
       </div>
       
+      <nav>  
+			<ul id="menu">
+				<li><a href="inicioCliente.jsp">Inicio</a></li>
+			 	<li><a href="miUsuario">Mi perfil</a></li>
+			 	<li><a href="productos">Mis productos</a></li>
+			 	<li><a href="catalogo">Catálogo</a></li>
+			 	<li><a href="mensajes">Chat</a></li>
+	 		</ul>
+		</nav>
+		
       <div> 
 		<ul id="opcionesmenu" class="nav nav-pills nav-stacked">
 			<li  class="active" id='menu2' ><a href="#">Mis productos</a></li>	
@@ -193,7 +203,9 @@
 				</tr>
 			</table>
 	  
-	
+	<p>
+		<a class ="btn btn-info" href="javascript:history.go(-1)">Volver</a>
+	</p>
 	
  <div class="footer">
 		<p>&copy; 2016 Wallapop, Inc.</p>

@@ -29,6 +29,15 @@
         <h2 class="text-muted">WALLAPOP</h2>
 		<p>Encuentra tu producto ideal</p>
       </div>
+      
+      <nav>  
+			<ul id="menu">
+				<li><a href="inicioAdmin.jsp">Inicio</a></li>
+			 	<li><a href="adminusuario">Gestión de usuarios</a></li>
+			 	<li><a href="adminproducto">Gestión de productos</a></li>
+			 	<li><a href="mensajes">Chat</a></li>
+	 		</ul>
+		</nav>
 	  <table id="tablaGestion" class="table" >
 	  <thead>
 	  	<tr class="fila1"><td>Nombre</td><td>Apellido</td><td>Contraseña</td><td>Correo</td><td>Provincia</td><td></td><td></td></tr>

@@ -12,6 +12,11 @@
 	max-width: 1200px;
 }
 
+#menu{
+	margin-left: 240px;
+	margin-bottom: 50px;
+}
+
 #opcionesmenu {
 	position: relative;
 	margin: 25px 10px 10px 40px; 

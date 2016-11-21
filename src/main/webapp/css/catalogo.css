@@ -10,6 +10,10 @@
 	max-width: 1200px;
 }
 
+#menu{
+	margin-left: 240px;
+	margin-bottom: 50px;
+}
 
 #buscador{
 	width:60%;

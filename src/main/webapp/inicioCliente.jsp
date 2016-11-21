@@ -19,58 +19,39 @@
         <h2 class="text-muted">WALLAPOP</h2>
 		<p>Encuentra tu producto ideal</p>
       </div>
+	
+	<nav>  
+			<ul id="menu">
+				<li><a href="inicioCliente.jsp">Inicio</a></li>
+			 	<li><a href="miUsuario">Mi perfil</a></li>
+			 	<li><a href="productos">Mis productos</a></li>
+			 	<li><a href="catalogo">Catálogo</a></li>
+			 	<li><a href="mensajes">Chat</a></li>
+	 		</ul>
+		</nav>
 
 
-
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="images/fondo-productos.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Encuentra el producto que deseas</h1>
-              <p>En Wallapop puedes buscar dentro de una amplia cantidad de categorías. Tenemos todo tipo de productos a vuestra disposición. ¡Encuentra el producto que estabas buscando!</p>
-              <p><a class="btn btn-lg btn-primary" href="catalogo" role="button">Catálogo de productos</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="images/fondo-productos.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Visita tu perfil</h1>
-              <p>Accede a tu información personal. Podrás modificar tu información de usuario, dar de alta un producto que quieras vender, modificar los datos sobre un producto (así como darlo de baja o modificar su estado) o darte de baja de la aplicación.</p>
-              <p><a class="btn btn-lg btn-primary" href="miUsuario" role="button">Mi perfil</a>
-              <a class="btn btn-lg btn-primary" href="productos" role="button">Mis productos</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="images/fondo-productos.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Comunicate con otros usuarios</h1>
-              <p>Relacionate con otros usuarios a través del chat.</p>
-              <p><a class="btn btn-lg btn-primary" href="mensajes" role="button">Chat</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+		<div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/catalogo.png" alt="Generic placeholder image" width="140" height="140">
+          <h3>Catálogo de productos</h3>
+          <p>En Wallapop puedes buscar dentro de una amplia cantidad de categorías. Tenemos todo tipo de productos a vuestra disposición. ¡Encuentra el producto que estabas buscando!</p>
+          <p><a class="btn btn-primary" href="catalogo" role="button">Catálogo de productos &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/perfil.png" alt="Generic placeholder image" width="140" height="140">
+          <h3>Visita tu perfil</h3><br>
+          <p>Accede a tu perfil. Podrás modificar tu información de usuario o de tus productos, así como dar de alta un producto que quieras vender.</p>
+          <p><a class="btn btn-primary" href="miUsuario" role="button">Mi perfil &raquo;</a></p>
+          <p><a class="btn btn-primary" href="productos" role="button">Mis productos &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/chatUsu.png" alt="Generic placeholder image" width="140" height="140">
+          <h3>Comunicate con otros usuarios</h3>
+          <p>Relacionate con otros usuarios a través del chat.</p>
+          <p><a class="btn btn-primary" href="mensajes" role="button">Chat &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 	
 	<form id="form_buscador" action="catalogo" method="post">
 		<table id="buscador">
@@ -98,9 +79,9 @@
 			<td><img src="images/sofa.jpg" class="imagenesProductos" alt="Sofa de esquina"></td>
 		</tr>
 		<tr>
-			<td><img src="images/camara.jpg" class="imagenesProductos" alt="Camara"></td>
-			<td><img src="images/silla.jpg" class="imagenesProductos" alt="Silla"></td>
-			<td><img src="images/raqueta.jpg" class="imagenesProductos" alt="Raqueta"></td>
+			<td><img src="images/iphone.JPG" class="imagenesProductos" alt="Iphone"></td>
+			<td><img src="images/bolso.jpg" class="imagenesProductos" alt="Bolso"></td>
+			<td><img src="images/cachimba.jpg" class="imagenesProductos" alt="Cachimba"></td>
 		</tr>
 	</table>
 	

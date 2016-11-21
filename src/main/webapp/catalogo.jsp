@@ -48,6 +48,17 @@
 			<h2 class="text-muted">WALLAPOP</h2>
 			<p>Encuentra tu producto ideal</p>
 		</div>
+		
+		<nav>  
+			<ul id="menu">
+				<li><a href="inicioCliente.jsp">Inicio</a></li>
+			 	<li><a href="miUsuario">Mi perfil</a></li>
+			 	<li><a href="productos">Mis productos</a></li>
+			 	<li><a href="catalogo">Catálogo</a></li>
+			 	<li><a href="mensajes">Chat</a></li>
+	 		</ul>
+		</nav>	
+		
 	<form id="form_buscador" action="catalogo" method="post">
 		<table id="buscador">
 			<tr><td id="celda1"><b>Buscador de productos</b></td></tr> 
