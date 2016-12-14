@@ -51,7 +51,6 @@ public class MensajesServlet extends HttpServlet {
     }
 
 	/**
-	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init() throws ServletException {
 		dao = new clienteDAOImp();
