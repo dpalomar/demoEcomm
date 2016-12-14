@@ -625,7 +625,7 @@
 							<headingDateFormat>dd-MM-yyyy</headingDateFormat>
 							<outputEncoding>${project.reporting.outputEncoding}</outputEncoding>
 							<type>range</type>
-							<range>90</range>
+							<range>120</range>
 						</configuration>
 						<reports>
 							<report>dev-activity</report> 
