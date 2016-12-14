@@ -89,7 +89,7 @@
 		<!-- @OVERRIDE this property per each project -->
 		<repository.user>dpalomar</repository.user>
 		<!-- @OVERRIDE this property per each project -->
-		<repository.name>demoEcomm-2</repository.name>
+        <repository.name>demoEcomm</repository.name>
 
 		<!-- @OVERRIDE [This is the branch that the web "pages" are located in. 
 			For GitHub, gh-pages; ] -->
